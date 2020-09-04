@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2pK-Ko-BRW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Batik Scanner-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BatikViewController" customModule="Ngecek" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JQT-fa-o6v">
+                                <rect key="frame" x="0.0" y="88" width="414" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="315" id="UgR-7C-roJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batik Megamendung" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTm-JV-Qan">
+                                <rect key="frame" x="20" y="423" width="374" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batik ini adalah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4U-ey-PE4">
+                                <rect key="frame" x="20" y="472" width="374" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JQT-fa-o6v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0mq-XL-7oQ"/>
+                            <constraint firstItem="D4U-ey-PE4" firstAttribute="top" secondItem="NTm-JV-Qan" secondAttribute="bottom" constant="20" id="2eV-9k-Dzc"/>
+                            <constraint firstItem="JQT-fa-o6v" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="53X-Nv-rWx"/>
+                            <constraint firstItem="JQT-fa-o6v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qs7-vp-uP3"/>
+                            <constraint firstItem="NTm-JV-Qan" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cvH-Ow-7OA"/>
+                            <constraint firstItem="NTm-JV-Qan" firstAttribute="top" secondItem="JQT-fa-o6v" secondAttribute="bottom" constant="20" id="gnL-L8-dZ6"/>
+                            <constraint firstItem="D4U-ey-PE4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="msz-XF-ej7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D4U-ey-PE4" secondAttribute="trailing" constant="20" id="v3Q-T6-bA2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NTm-JV-Qan" secondAttribute="trailing" constant="20" id="zHV-bz-MXG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Batik Scanner" id="lWd-C6-yMC">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="BF2-kh-Cwh">
+                            <connections>
+                                <action selector="handleCameraTapped:" destination="BYZ-38-t0r" id="aFd-at-1kY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="batikDescriptionLabel" destination="D4U-ey-PE4" id="nXy-Kz-PUy"/>
+                        <outlet property="batikImageView" destination="JQT-fa-o6v" id="27k-yF-GoI"/>
+                        <outlet property="batikTitleLabel" destination="NTm-JV-Qan" id="Dm1-2r-ZC3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="O88-5J-Va4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2pK-Ko-BRW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OBO-89-u9F">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="t8J-Bk-ASp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dX3-w3-JqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>
