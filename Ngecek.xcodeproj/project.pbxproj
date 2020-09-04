@@ -14,7 +14,7 @@
 		26DF5A9F250092E3000C0E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DF5A9E250092E3000C0E0C /* Assets.xcassets */; };
 		26DF5AA2250092E3000C0E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DF5AA0250092E3000C0E0C /* LaunchScreen.storyboard */; };
 		26DF5AAA2500C287000C0E0C /* BatikClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5AA92500C287000C0E0C /* BatikClassifier.mlmodel */; };
-		26DF5AAC2500CAE9000C0E0C /* BatikML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5AAB2500CAE9000C0E0C /* BatikML.swift */; };
+		26DF5AAC2500CAE9000C0E0C /* ClassificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5AAB2500CAE9000C0E0C /* ClassificationService.swift */; };
 		26DF5AB525014799000C0E0C /* Batik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5AB425014799000C0E0C /* Batik.swift */; };
 		26DF5AB7250147F2000C0E0C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5AB6250147F2000C0E0C /* Page.swift */; };
 		26DF5AB92501495A000C0E0C /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DF5AB82501495A000C0E0C /* Query.swift */; };
@@ -31,7 +31,7 @@
 		26DF5AA1250092E3000C0E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26DF5AA3250092E3000C0E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26DF5AA92500C287000C0E0C /* BatikClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BatikClassifier.mlmodel; sourceTree = "<group>"; };
-		26DF5AAB2500CAE9000C0E0C /* BatikML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatikML.swift; sourceTree = "<group>"; };
+		26DF5AAB2500CAE9000C0E0C /* ClassificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationService.swift; sourceTree = "<group>"; };
 		26DF5AB425014799000C0E0C /* Batik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batik.swift; sourceTree = "<group>"; };
 		26DF5AB6250147F2000C0E0C /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		26DF5AB82501495A000C0E0C /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		26DF5AB1250133F6000C0E0C /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				26DF5AAB2500CAE9000C0E0C /* BatikML.swift */,
+				26DF5AAB2500CAE9000C0E0C /* ClassificationService.swift */,
 				26DF5ABA250149EB000C0E0C /* NetworkService.swift */,
 				26DF5AA92500C287000C0E0C /* BatikClassifier.mlmodel */,
 			);
@@ -197,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26DF5A9A250092E1000C0E0C /* BatikViewController.swift in Sources */,
-				26DF5AAC2500CAE9000C0E0C /* BatikML.swift in Sources */,
+				26DF5AAC2500CAE9000C0E0C /* ClassificationService.swift in Sources */,
 				26DF5A96250092E1000C0E0C /* AppDelegate.swift in Sources */,
 				26DF5A98250092E1000C0E0C /* SceneDelegate.swift in Sources */,
 				26DF5ABB250149EB000C0E0C /* NetworkService.swift in Sources */,
