@@ -32,6 +32,6 @@ Hat tip for the references which really help in completing this project.
 This project is open-source. You may do what you want with the repository. Also, you may continue this project for further features.
 
 ## References
-[MVC Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)
-[Swift Style Coding Convention](https://github.com/raywenderlich/swift-style-guide)
-[Wikipedia API Tutorial](https://www.hackingwithswift.com/books/ios-swiftui/downloading-data-from-wikipedia)
+*[MVC Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)
+*[Swift Style Coding Convention](https://github.com/raywenderlich/swift-style-guide)
+*[Wikipedia API Tutorial](https://www.hackingwithswift.com/books/ios-swiftui/downloading-data-from-wikipedia)
