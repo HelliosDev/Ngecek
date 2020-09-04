@@ -20,9 +20,9 @@ This project contains the finished code and it's ready to run. You are free to u
 
 Here are some examples of the project's outcome. This project contains the feature of scanning and providing information.
 <br /><br />
-<img src="Documentation/Page 1.PNG" alt="Ngecek Empty Image" width="280" height="480">
-<img src="Documentation/Page 2.PNG" alt="Ngecek Photo Scanning" width="280" height="480">
-<img src="Documentation/Page 3.PNG" alt="Ngecek Info Showing" width="280" height="480">
+<img src="Documentation/Page 1.PNG" alt="Ngecek Empty Image" width="230" height="430">
+<img src="Documentation/Page 2.PNG" alt="Ngecek Photo Scanning" width="230" height="430">
+<img src="Documentation/Page 3.PNG" alt="Ngecek Info Showing" width="230" height="430">
 
 ## Contribution
 
