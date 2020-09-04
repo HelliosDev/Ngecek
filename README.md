@@ -10,12 +10,6 @@ I really want to learn about Coding Convention (for Swift). Why? Because it real
 
 This project contains the finished code and it's ready to run. You are free to use the **.mlmodel** provided in this project or generate your own **.mlmodel** using Create ML. You can also find the API for data purpose in [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page).
 
-## Built With
-
-* [Core ML](https://developer.apple.com/documentation/coreml) - Image Classifier
-* [Create ML](https://developer.apple.com/machine-learning/create-ml/) - Model Building
-* [Model-View-Controller](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html) - Architectural Pattern
-
 ## Usage
 
 Here are some examples of the project's outcome. This project contains the feature of scanning and providing information.
@@ -23,6 +17,12 @@ Here are some examples of the project's outcome. This project contains the featu
 <img src="Documentation/Page 1.PNG" alt="Ngecek Empty Image" width="230" height="430">
 <img src="Documentation/Page 2.PNG" alt="Ngecek Photo Scanning" width="230" height="430">
 <img src="Documentation/Page 3.PNG" alt="Ngecek Info Showing" width="230" height="430">
+
+## Built With
+
+* [Core ML](https://developer.apple.com/documentation/coreml) - Image Classifier
+* [Create ML](https://developer.apple.com/machine-learning/create-ml/) - Model Building
+* [Model-View-Controller](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html) - Architectural Pattern
 
 ## Contribution
 
